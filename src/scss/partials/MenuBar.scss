@@ -1,10 +1,15 @@
 .menu-bar {
+    position: fixed;
 
     .container {
+        display: flex;
+        justify-content: space-between;
 
         .menu-bar__add-btn {
 
             .add-btn__img {}
         }
+
+        .menu-bar__toggle-btn {}
     }
 }

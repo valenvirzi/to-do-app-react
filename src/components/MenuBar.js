@@ -1,6 +1,7 @@
 import React from "react";
 
 const MenuBar = () => {
+  const toggleTheme = () => {};
   return (
     <div className="menu-bar">
       <div className="container">
@@ -12,7 +13,7 @@ const MenuBar = () => {
             src="https://www.svgrepo.com/show/532997/plus-large.svg"
           ></img>
         </button>
-        <div></div>
+        <button className="menu-bar__toggle-btn" onClick={toggleTheme}></button>
       </div>
     </div>
   );
